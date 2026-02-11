@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You - Nomad's Nook</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f4f7f4 0%, #e8ede8 100%);
+      min-height: 100vh;
+      padding: 20px 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 500px;
+      width: 100%;
+      background: white;
+      padding: 50px 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08),
+                  0 2px 8px rgba(0, 0, 0, 0.06);
+      text-align: center;
+    }
+
+    .checkmark {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #2f855a 0%, #276749 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 30px;
+      font-size: 45px;
+      color: white;
+      box-shadow: 0 8px 20px rgba(47, 133, 90, 0.3);
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #1a202c;
+      margin-bottom: 15px;
+      letter-spacing: -0.5px;
+    }
+
+    .message {
+      color: #666;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .whatsapp-notice {
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+      border: 2px solid #86efac;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+
+    .whatsapp-notice p {
+      color: #166534;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .whatsapp-notice span {
+      font-size: 24px;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 14px 20px;
+      background: linear-gradient(135deg, #2f855a 0%, #276749 100%);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(47, 133, 90, 0.3);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 40px 25px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="checkmark">✓</div>
+    
+    <h1>Thank You!</h1>
+    
+    <p class="message">
+      Your order has been sent to the kitchen.<br>
+      We appreciate your business!
+    </p>
+
+    <div class="whatsapp-notice">
+      <span>📱</span>
+      <p>Please go back to WhatsApp to complete your payment and confirm your order.</p>
+    </div>
+
+    <a href="index.html" class="btn">← Order Again</a>
+  </div>
+</body>
+</html>

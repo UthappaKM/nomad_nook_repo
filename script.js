@@ -111,8 +111,6 @@ function submitOrder() {
     body: JSON.stringify(payload)
   });
 
-  alert("✅ Order sent to kitchen. Thank you!");
-  setTimeout(() => {
-    location.reload();
-  }, 3000);
+  // Redirect to thank you page
+  window.location.href = "thank-you.html";
 }

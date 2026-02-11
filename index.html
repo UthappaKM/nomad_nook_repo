@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nomad’s Nook – Order</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+  <h1>Nomad’s Nook</h1>
+  <p class="subtitle">Place your order</p>
+
+  <label>Category</label>
+  <select id="categorySelect"></select>
+
+  <label>Item</label>
+  <select id="itemSelect"></select>
+
+  <div id="itemDetails"></div>
+
+  <label>Quantity</label>
+  <input type="number" id="quantity" min="1" value="1" />
+
+  <button onclick="addItem()">Add Item</button>
+
+  <h2>🧾 Order Summary</h2>
+  <ul id="orderList"></ul>
+
+  <h3>Total: ₹<span id="total">0</span></h3>
+
+  <label>Name</label>
+  <input type="text" id="customername" />
+
+  <label>Phone Number</label>
+  <input type="number" id="phone" />
+
+  <label>Table Number</label>
+  <input type="number" id="table" />
+
+  <button class="confirm" onclick="submitOrder()">Confirm Order</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

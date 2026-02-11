@@ -1,0 +1,399 @@
+{
+  "Breakfast": [
+    {
+      "name": "English Breakfast Non Veg",
+      "description": "Sunny side egg, sausage, sautéed veggies, and toast.",
+      "price": 350
+    },
+    {
+      "name": "English Breakfast Veg",
+      "description": "Baked beans, sautéed veggies, mac & cheese sandwich, and paneer sautéed.",
+      "price": 300
+    }
+  ],
+
+  "Soups": [
+    {
+      "name": "Veg Clear Soup",
+      "description": "Light and refreshing broth with assorted fresh vegetables.",
+      "price": 170
+    },
+    {
+      "name": "Hot & Sour Soup Veg",
+      "description": "A tangy and spicy soup with vegetables, flavoured with soy and lemon juice.",
+      "price": 170
+    },
+    {
+      "name": "Hot & Sour Soup Chicken",
+      "description": "A tangy and spicy soup with chicken, flavoured with soy and lemon juice.",
+      "price": 200
+    },
+    {
+      "name": "Cream of Broccoli Soup",
+      "description": "Smooth and creamy soup made with fresh broccoli and herbs.",
+      "price": 190
+    },
+    {
+      "name": "Cream of Mushroom Soup",
+      "description": "Smooth and creamy soup made with fresh mushrooms and herbs.",
+      "price": 190
+    },
+    {
+      "name": "Cream of Chicken Soup",
+      "description": "A rich and creamy chicken soup.",
+      "price": 200
+    }
+  ],
+
+  "Salads": [
+    {
+      "name": "Green Salad",
+      "description": "Cucumber and carrot tossed lightly for a fresh crunch.",
+      "price": 100
+    },
+    {
+      "name": "Corn Salad",
+      "description": "Sweet corn boiled with fresh herbs and vegetables with dressing.",
+      "price": 150
+    },
+    {
+      "name": "Nacho Salad Veg",
+      "description": "Crunchy nachos topped with vegetables, cheese, and salsa.",
+      "price": 150
+    },
+    {
+      "name": "Nacho Salad Non Veg",
+      "description": "Crunchy nachos topped with chicken, cheese, and salsa.",
+      "price": 200
+    },
+    {
+      "name": "Greek Salad Veg",
+      "description": "Cucumber, tomatoes, olives, and dressing.",
+      "price": 150
+    },
+    {
+      "name": "Greek Salad Non Veg",
+      "description": "Cucumber, tomatoes, olives, chicken, and dressing.",
+      "price": 200
+    },
+    {
+      "name": "Rainbow Sauteed Salad",
+      "description": "A colourful blend of sautéed seasonal vegetables with light dressing.",
+      "price": 200
+    }
+  ],
+
+  "Starters Veg": [
+    {
+      "name": "French Fries Plain",
+      "description": "Crispy golden fries served plain.",
+      "price": 150
+    },
+    {
+      "name": "French Fries Peri Peri",
+      "description": "Crispy golden fries tossed in spicy peri peri seasoning.",
+      "price": 150
+    },
+    {
+      "name": "Honey Chilli Potato",
+      "description": "Deep-fried potato tossed in tangy-sweet chilli glaze.",
+      "price": 150
+    },
+    {
+      "name": "Peanut Masala",
+      "description": "Spicy mix of roasted peanuts, onions, tomatoes, and lime.",
+      "price": 150
+    },
+    {
+      "name": "Gobi Manchurian",
+      "description": "Crispy cauliflower tossed in Indo-Chinese sauces.",
+      "price": 200
+    },
+    {
+      "name": "Gobi Chilli",
+      "description": "Cauliflower tossed in spicy chilli sauce.",
+      "price": 200
+    },
+    {
+      "name": "Babycorn Manchurian",
+      "description": "Crispy babycorn tossed in Indo-Chinese sauces.",
+      "price": 200
+    },
+    {
+      "name": "Babycorn Chilli",
+      "description": "Babycorn tossed in spicy chilli sauce.",
+      "price": 200
+    },
+    {
+      "name": "Babycorn Pepper",
+      "description": "Babycorn tossed in peppery seasoning.",
+      "price": 200
+    },
+    {
+      "name": "Paneer Manchurian",
+      "description": "Paneer cubes tossed in Indo-Chinese sauces.",
+      "price": 220
+    },
+    {
+      "name": "Paneer Chilli",
+      "description": "Paneer cubes tossed in spicy chilli sauce.",
+      "price": 220
+    },
+    {
+      "name": "Paneer Pepper",
+      "description": "Paneer cubes tossed with crushed pepper.",
+      "price": 220
+    },
+    {
+      "name": "Mushroom Manchurian",
+      "description": "Mushrooms wok-tossed in Indo-Chinese sauces.",
+      "price": 200
+    },
+    {
+      "name": "Mushroom Chilli",
+      "description": "Mushrooms tossed in spicy chilli sauce.",
+      "price": 200
+    },
+    {
+      "name": "Mushroom Pepper",
+      "description": "Mushrooms tossed in pepper seasoning.",
+      "price": 200
+    },
+    {
+      "name": "Cottage Cheese Sticks",
+      "description": "Cheesy cottage cheese sticks lightly fried and seasoned.",
+      "price": 220
+    }
+  ],
+
+  "Starters Non Veg": [
+    {
+      "name": "Egg Bhurji",
+      "description": "Spiced Indian-style scrambled eggs.",
+      "price": 80
+    },
+    {
+      "name": "Omelette",
+      "description": "Customisable omelette with plain, masala, cheese, or mushroom options.",
+      "price": 120
+    },
+    {
+      "name": "Chicken Manchurian",
+      "description": "Juicy chicken tossed in Indo-Chinese sauces.",
+      "price": 250
+    },
+    {
+      "name": "Chicken Pepper",
+      "description": "Chicken tossed with bold pepper flavours.",
+      "price": 270
+    },
+    {
+      "name": "Chicken 65",
+      "description": "Spicy deep-fried chicken with South Indian spices.",
+      "price": 250
+    },
+    {
+      "name": "Chicken Wings BBQ",
+      "description": "Tender wings coated in smoky BBQ sauce.",
+      "price": 350
+    },
+    {
+      "name": "Chicken Wings Peri Peri",
+      "description": "Tender wings coated in spicy peri peri sauce.",
+      "price": 350
+    },
+    {
+      "name": "Sesame Kebab",
+      "description": "Chicken kebabs rolled in sesame seeds and fried.",
+      "price": 250
+    },
+    {
+      "name": "Butter Prawns Garlic",
+      "description": "Prawns cooked in rich garlic butter.",
+      "price": 350
+    },
+    {
+      "name": "Butter Prawns Crispy",
+      "description": "Crispy fried prawns.",
+      "price": 350
+    },
+    {
+      "name": "Butter Prawns Italian",
+      "description": "Prawns cooked with Italian herbs and butter.",
+      "price": 350
+    }
+  ],
+
+  "Pasta": [
+    {
+      "name": "Aglio Olio Pasta",
+      "description": "Spaghetti pasta tossed with garlic, olive oil, and chilli flakes.",
+      "price": 230
+    },
+    {
+      "name": "Alfredo Pasta",
+      "description": "Creamy white sauce penne pasta with herbs and cheese.",
+      "price": 250
+    },
+    {
+      "name": "Arrabbiata Pasta",
+      "description": "Spicy tomato-based penne pasta with Italian herbs.",
+      "price": 230
+    },
+    {
+      "name": "Pink Sauce Pasta",
+      "description": "Penne pasta with a creamy blend of red and white sauces.",
+      "price": 230
+    },
+    {
+      "name": "Mac and Cheese",
+      "description": "Classic cheesy macaroni pasta.",
+      "price": 250
+    }
+  ],
+
+  "Pizza": [
+    {
+      "name": "Cottage Cheese Pizza",
+      "description": "Thin crust pizza topped with paneer and cheese.",
+      "price": 380
+    },
+    {
+      "name": "Chicken Cheese Pizza",
+      "description": "Thin crust pizza topped with chicken and cheese.",
+      "price": 370
+    },
+    {
+      "name": "Farm Fresh Veg Pizza",
+      "description": "Thin crust pizza topped with fresh vegetables and cheese.",
+      "price": 380
+    },
+    {
+      "name": "Mushroom and Broccoli Pizza",
+      "description": "Thin crust pizza topped with mushrooms and broccoli.",
+      "price": 380
+    },
+    {
+      "name": "Chicken Overload Pizza",
+      "description": "Pizza loaded with chicken toppings and extra cheese.",
+      "price": 400
+    },
+    {
+      "name": "Pesto Pizza Veg",
+      "description": "Pizza with basil pesto sauce and vegetable toppings.",
+      "price": 400
+    },
+    {
+      "name": "Pesto Pizza Non Veg",
+      "description": "Pizza with basil pesto sauce and chicken toppings.",
+      "price": 400
+    }
+  ],
+
+  "Desserts": [
+    {
+      "name": "Gulab Jamun",
+      "description": "Classic Indian milk-based dessert.",
+      "price": 80
+    },
+    {
+      "name": "Gulab Jamun with Ice Cream",
+      "description": "Gulab jamun served with vanilla ice cream.",
+      "price": 150
+    },
+    {
+      "name": "Semiya Kheer",
+      "description": "Creamy vermicelli pudding cooked in milk with cardamom.",
+      "price": 120
+    }
+  ],
+
+  "Coorg Special": [
+    {
+      "name": "Pork Chudles",
+      "description": "Traditional Coorg-style pork delicacy cooked with spices.",
+      "price": 250
+    },
+    {
+      "name": "Chicken Chudles",
+      "description": "Chicken marinated in Coorg masala and pan-roasted.",
+      "price": 380
+    },
+    {
+      "name": "Coorg Chicken Pepper Fry",
+      "description": "Chicken tossed in freshly ground Coorg pepper.",
+      "price": 280
+    },
+    {
+      "name": "Coorg Veg Manchurian",
+      "description": "Vegetable balls tossed in Coorg-style sauce.",
+      "price": 350
+    },
+    {
+      "name": "Chicken Curry Coorg Style",
+      "description": "Signature Coorg chicken curry with roasted spices and coconut.",
+      "price": 260
+    },
+    {
+      "name": "Pork Curry Coorg Style",
+      "description": "Slow-cooked pork with kachampuli and rich Coorg masala.",
+      "price": 220
+    },
+    {
+      "name": "Paneer Gravy Coorg Style",
+      "description": "Paneer cubes in mildly spiced Coorg-style curry.",
+      "price": 280
+    },
+    {
+      "name": "Dal Fry",
+      "description": "Classic yellow lentils tempered with cumin and garlic.",
+      "price": 280
+    }
+  ],
+
+  "Accompaniments": [
+    {
+      "name": "Chapati",
+      "description": "Soft whole-wheat flatbread.",
+      "price": 30
+    },
+    {
+      "name": "Akki Roti",
+      "description": "Traditional Coorg rice roti.",
+      "price": 30
+    },
+    {
+      "name": "Jeera Rice",
+      "description": "Aromatic basmati rice flavoured with cumin.",
+      "price": 180
+    },
+    {
+      "name": "Ghee Rice",
+      "description": "Fragrant basmati rice cooked in ghee with mild spices.",
+      "price": 180
+    },
+    {
+      "name": "Plain Rice",
+      "description": "Steamed white rice.",
+      "price": 80
+    }
+  ],
+
+  "Beverages": [
+    {
+      "name": "Filter Coffee",
+      "description": "Authentic Coorg-style filter coffee.",
+      "price": 110
+    },
+    {
+      "name": "Fresh Lime Soda",
+      "description": "Refreshing lime soda served sweet or salt.",
+      "price": 90
+    },
+    {
+      "name": "Watermelon Juice",
+      "description": "Freshly blended chilled watermelon juice.",
+      "price": 90
+    }
+  ]
+}

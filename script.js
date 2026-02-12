@@ -5,7 +5,7 @@ let orderId = null;
 
 const params = new URLSearchParams(window.location.search);
 const tableNo = params.get("table");      // "6"
-const phoneNo = params.get("phoneno");    // "919482194053"
+const phoneNo = params.get("phone");    // "919482194053"
 
 fetch("data/menu.json")
   .then(res => res.json())
@@ -102,8 +102,8 @@ function submitOrder() {
   const payload = {
     order_id: orderId,
     name: customername.value,
-    phone:phoneNo,
-    table: tableNo,
+    phone:phone,
+    table: table,
     items: order,
     total: total
   };

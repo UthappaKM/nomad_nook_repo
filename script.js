@@ -3,9 +3,9 @@ let order = [];
 let total = 0;
 let orderId = null;
 
-const params = new URLSearchParams(window.location.search);
-const tableNo = params.get("table");      // "6"
-const phoneNo = params.get("phone");    // "919482194053"
+const decoded = decodeURIComponent(req.query.data);
+const [tableNo, phoneNo] = decoded.split("|");
+  // "919482194053"
 
 fetch("data/menu.json")
   .then(res => res.json())
@@ -102,8 +102,8 @@ function submitOrder() {
   const payload = {
     order_id: orderId,
     name: customername.value,
-    phone:phone,
-    table: table,
+    phone:phoneNo,
+    table: tableNo,
     items: order,
     total: total
   };

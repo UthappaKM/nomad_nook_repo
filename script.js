@@ -3,9 +3,11 @@ let order = [];
 let total = 0;
 let orderId = null;
 
-const decoded = decodeURIComponent(req.query.data);
+// ...existing code...
+const urlParams = new URLSearchParams(window.location.search);
+const decoded = decodeURIComponent(urlParams.get('data') || '');
 const [tableNo, phoneNo] = decoded.split("|");
-  // "919482194053"
+// ...existing code...
 
 fetch("data/menu.json")
   .then(res => res.json())

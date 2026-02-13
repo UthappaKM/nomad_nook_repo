@@ -13,8 +13,10 @@ fetch("data/menu.json")
   .then(res => res.json())
   .then(data => {
     menu = data;
+    console.log("Menu loaded:", menu);
     loadCategories();
-  });
+  })
+  .catch(error => console.error("Error loading menu:", error));
 
 function loadCategories() {
   const catSelect = document.getElementById("categorySelect");
@@ -29,17 +31,22 @@ function loadCategories() {
 
 function loadItems() {
   const itemSelect = document.getElementById("itemSelect");
+  const categorySelect = document.getElementById("categorySelect");
   const category = categorySelect.value;
   itemSelect.innerHTML = `<option>Select item</option>`;
 
-  menu[category].forEach((item, index) => {
-    itemSelect.innerHTML += `<option value="${index}">${item.name}</option>`;
-  });
+  if (menu[category]) {
+    menu[category].forEach((item, index) => {
+      itemSelect.innerHTML += `<option value="${index}">${item.name}</option>`;
+    });
+  }
 
   itemSelect.onchange = showItemDetails;
 }
 
 function showItemDetails() {
+  const categorySelect = document.getElementById("categorySelect");
+  const itemSelect = document.getElementById("itemSelect");
   const category = categorySelect.value;
   const item = menu[category][itemSelect.value];
 
@@ -48,6 +55,9 @@ function showItemDetails() {
 }
 
 function addItem() {
+  const categorySelect = document.getElementById("categorySelect");
+  const itemSelect = document.getElementById("itemSelect");
+  const quantity = document.getElementById("quantity");
   const category = categorySelect.value;
   const item = menu[category][itemSelect.value];
   const qty = parseInt(quantity.value);
@@ -97,20 +107,21 @@ function updateOrderUI() {
 
 
 function submitOrder() {
-    if (!orderId) {
-  orderId = "NN-" + Date.now() + "-" + Math.floor(Math.random() * 1000);
-}
+  if (!orderId) {
+    orderId = "NN-" + Date.now() + "-" + Math.floor(Math.random() * 1000);
+  }
 
+  const customername = document.getElementById("customername");
   const payload = {
     order_id: orderId,
     name: customername.value,
-    phone:phoneNo,
+    phone: phoneNo,
     table: tableNo,
     items: order,
     total: total
   };
 
-  fetch("https://n8n.srv1116490.hstgr.cloud/webhook-test/ea1a69d0-8884-497f-905e-02258f7cd1e5", {
+  fetch("https://n8n.srv1116490.hstgr.cloud/webhook/ea1a69d0-8884-497f-905e-02258f7cd1e5", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload)
